@@ -2,13 +2,15 @@ body{
     display: block;
     background-color: black;
     font: normal 15pt Arial;
-    align-items: center
+    align-items: center;
+    
 }
 
 header{    
     background-color: #bcaa70;
+    margin-top: 5px;
     margin-bottom: 10px;
-    text-align: right;
+    text-align: center;
 }
 header h1 {
     text-align: center;
@@ -27,29 +29,19 @@ header nav a {
 }
 main {
     background-color: #bcaa70;
-    width: 800px;
+    max-width: 800px;    
     border-radius: 10px;
     margin: auto;
-    padding: 10px;
-    
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;   
 }
 section{
     background: white;
     border-radius: 10px;
-    padding: 15px;
-    width: 500px;
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 0px 5px 5px 5px;
+    max-width: 500px;    
+    margin: 10px auto 10px auto;    
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.334);
 }
-
-footer{
-    color: white;
-    text-align: center;
-}
-
-footer div{
-    display: inline-block;    
-}
-
